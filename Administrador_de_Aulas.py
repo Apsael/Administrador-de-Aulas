@@ -4,7 +4,7 @@ from PIL import Image, ImageTk
 import json
 import os
 
-# Define the path to the data file and images using relative paths
+# Define la ruta de acceso a los archivos usando relative paths
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_FILE = os.path.join(BASE_DIR, 'data.json')
 BACKGROUND_IMAGE = os.path.join(BASE_DIR, 'background.jpg')
